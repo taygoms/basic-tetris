@@ -1,0 +1,101 @@
+body {
+   display: flex;
+   flex-direction: column;
+   background: radial-gradient(circle, rgba(255,229,229,1) 0%, rgba(194,203,255,1) 100%);
+   font-family: 'Ubuntu', sans-serif;
+   color: #659dbf;
+}
+
+header {
+    text-align: center;
+    letter-spacing: 15px;
+    margin: 20px;
+    color: #659dbf;
+}
+
+header h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+header h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.column-right {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
+    padding: 0 10px;
+    margin-left: 15px;
+}
+
+.score-title {
+    /* color: #659dbf; */
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+#score {
+    text-align: center;
+    font-size: 45px;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c6cbed;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+    /* background-color:#FDC1C5; */
+}
+
+#start-button {
+    border: none;
+    padding: 10px;
+    background-color: #c6cbed;
+    color: #659dbf;
+    width: 100px;
+    margin: 0px auto 20px;
+    cursor: pointer;
+}
+
+#start-button:focus {
+    outline:0 !important;
+}
+
+.tetromino {
+    background-color: #FD5956;
+}
+
+.mini-grid {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: #9DBCD4; */
+    margin: 0 0 30px 20px;
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
